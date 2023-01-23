@@ -6,11 +6,17 @@
             content="Antoine DEBOUT - Portfolio"
         >
     </InertiaHead>
+    <Navbar></Navbar>
     <slot></slot>
+    <Footer></Footer>
 </template>
 
 <script>
+import Footer from '../Components/Footer.vue';
+import Navbar from '../Components/Navbar.vue';
+
 export default {
-    name: "AppLayout"
+    name: "AppLayout",
+    components: {Footer, Navbar},
 }
 </script>
