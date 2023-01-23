@@ -15,11 +15,17 @@
         "vite": "^4.0.0"
     },
     "dependencies": {
+        "@fortawesome/fontawesome-free": "^6.2.1",
+        "@fortawesome/fontawesome-svg-core": "^6.2.1",
+        "@fortawesome/free-brands-svg-icons": "^6.2.1",
+        "@fortawesome/free-solid-svg-icons": "^6.2.1",
+        "@fortawesome/vue-fontawesome": "^3.0.2",
         "@inertiajs/inertia": "^0.11.1",
         "@inertiajs/inertia-vue3": "^0.6.0",
         "@inertiajs/vue3": "^1.0.0",
         "@vitejs/plugin-vue": "^4.0.0",
         "dotenv": "^16.0.3",
+        "fortawesome": "^0.0.1-security",
         "fs": "^0.0.1-security"
     }
 }

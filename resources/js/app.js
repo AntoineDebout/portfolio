@@ -1,6 +1,9 @@
 import './bootstrap';
 import { createApp, h } from 'vue'
 import { createInertiaApp, Head, Link } from '@inertiajs/inertia-vue3'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import CommonIcon from './Components/Elements/CommonIcon.vue'
 
 createInertiaApp({
     resolve: name => {
@@ -12,6 +15,8 @@ createInertiaApp({
             .use(plugin)
             .component('InertiaHead', Head)
             .component('InertiaLink', Link)
+            .component('font-awesome-icon', FontAwesomeIcon)
+            .component('CommonIcon', CommonIcon)
             .mount(el)
     },
     progress: {

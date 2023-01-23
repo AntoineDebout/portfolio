@@ -8,7 +8,10 @@
     </InertiaHead>
     <Navbar></Navbar>
     <slot></slot>
-    <Footer></Footer>
+    <footer>
+        <Footer></Footer>
+    </footer>
+
 </template>
 
 <script>
