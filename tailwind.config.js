@@ -6,14 +6,23 @@ module.exports = {
         "./resources/**/*.js",
         "./resources/**/*.vue",
     ],
-  theme: {
-      screens: {
-          sm: '640px',
-          md: '768px',
-          lg: '1024px',
-          xl: '1280px',
-      },
-      extend: {},
-  },
-  plugins: [],
+    safelist: [
+        'text-red-500',
+        'text-green-500',
+        'text-blue-500',
+        'bg-green-100',
+        'bg-blue-100',
+        'bg-red-100',
+        'rounded-full',
+    ],
+    theme: {
+        screens: {
+            sm: '640px',
+            md: '768px',
+            lg: '1024px',
+            xl: '1280px',
+        },
+        extend: {},
+    },
+    plugins: [],
 }
