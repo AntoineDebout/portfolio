@@ -89,20 +89,8 @@ return [
             'company'       => 'GlobalExam',
             'img_icon'      => url('img/experiences/ge.jpeg'),
             'job'           => 'Fullstack Developer',
-            'starts_at'   => '2020',
+            'starts_at'     => 'Sept 2020',
             'ends_at'       => 'Today',
-            'description'   => '',
-            'skills'        => [
-
-            ],
-            'link_url'      => '',
-        ],
-        'nxo' => [
-            'company'       => 'NXO France',
-            'img_icon'      => url('img/experiences/nxo.png'),
-            'job'           => 'Ingénieur Développeur (Apprentissage)',
-            'starts_at'   => '2017',
-            'ends_at'       => '2020',
             'description'   => '',
             'skills'        => [
 
@@ -112,9 +100,21 @@ return [
         'sga' => [
             'company'       => 'SGA Courtage',
             'img_icon'      => url('img/experiences/sga.jpeg'),
-            'job'           => 'Développeur - Architecte Base de données',
-            'starts_at'   => '2019',
-            'ends_at'       => '2020',
+            'job'           => 'Développeur, Architecte Base de données',
+            'starts_at'     => 'Juil 2019',
+            'ends_at'       => 'Sept 2020',
+            'description'   => '',
+            'skills'        => [
+
+            ],
+            'link_url'      => '',
+        ],
+        'nxo' => [
+            'company'       => 'NXO France',
+            'img_icon'      => url('img/experiences/nxo.png'),
+            'job'           => 'Ingénieur Développeur <span class="ml-4 bg-green-100 text-green-500 text-xs p-2">Apprentissage</span>',
+            'starts_at'     => 'Sept 2017',
+            'ends_at'       => 'Sept 2020',
             'description'   => '',
             'skills'        => [
 
@@ -122,11 +122,11 @@ return [
             'link_url'      => '',
         ],
         'cpam' => [
-            'company'       => 'Caisse Primaire d\'Assurance Maladie (95)',
+            'company'       => 'CPAM Val-d\'Oise',
             'img_icon'      => url('img/experiences/cpam.png'),
-            'job'           => 'Développeur - Architecte Base de données',
-            'starts_at'   => '2017',
-            'ends_at'       => '2019',
+            'job'           => 'Réalisateur d\'application <span class="ml-4 bg-green-100 text-green-500 text-xs p-2">Apprentissage</span>',
+            'starts_at'     => 'Sept 2015',
+            'ends_at'       => 'Sept 2017',
             'description'   => '',
             'skills'        => [
 

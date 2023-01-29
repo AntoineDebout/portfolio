@@ -7,8 +7,12 @@ module.exports = {
         "./resources/**/*.vue",
     ],
     safelist: [
+        'p-2',
+        'ml-4',
+        'text-xs',
         'text-red-500',
         'text-green-500',
+        'text-green-100',
         'text-blue-500',
         'bg-green-100',
         'bg-blue-100',
