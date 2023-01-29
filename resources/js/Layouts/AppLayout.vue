@@ -10,11 +10,6 @@
     <div class="h-full w-full">
       <slot></slot>
     </div>
-
-    <footer>
-        <Footer></Footer>
-    </footer>
-
 </template>
 
 <script>

@@ -1,7 +1,7 @@
 <template>
 <div
-    :id="'common-tag-' + icon.name"
-    class="flex flex-row items-center gap-1 py-1 px-4"
+    :id="'common-tag-' + id"
+    class="flex flex-row items-center gap-1 py-1"
     v-bind="$attrs"
 >
     <common-icon
@@ -18,6 +18,10 @@
 <script>
 export default {
   props: {
+    id: {
+      type: String,
+      required: true
+    },
     backgroundClass:{
       type: String,
       required: true,
@@ -37,7 +41,7 @@ export default {
     },
   },
   mounted(){
-    let commonTagDiv = document.getElementById('common-tag-' + this.icon.name);
+    let commonTagDiv = document.getElementById('common-tag-' + this.id);
 
     commonTagDiv.classList.add(this.backgroundClass);
     commonTagDiv.classList.add(this.roundedClass);

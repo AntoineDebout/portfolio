@@ -89,6 +89,7 @@ return [
             'company'       => 'GlobalExam',
             'img_icon'      => url('img/experiences/ge.jpeg'),
             'job'           => 'Fullstack Developer',
+            'contract'      => 'CDI',
             'starts_at'     => 'Sept 2020',
             'ends_at'       => 'Today',
             'description'   => '',
@@ -101,9 +102,12 @@ return [
             'company'       => 'SGA Courtage',
             'img_icon'      => url('img/experiences/sga.jpeg'),
             'job'           => 'Développeur, Architecte Base de données',
+            'contract'      => 'PROJET SCOLAIRE',
             'starts_at'     => 'Juil 2019',
             'ends_at'       => 'Sept 2020',
-            'description'   => '',
+            'description'   => 'Réalisation d\'un CRM pour courtier en assurance. 
+                Développement d\'une application web sous Laravel - Bootstrap - jQuery. 
+                Mise en place de l\'architecture de données. Gestion d\'une équipe de 3 personnes',
             'skills'        => [
 
             ],
@@ -112,10 +116,13 @@ return [
         'nxo' => [
             'company'       => 'NXO France',
             'img_icon'      => url('img/experiences/nxo.png'),
-            'job'           => 'Ingénieur Développeur <span class="ml-4 bg-green-100 text-green-500 text-xs p-2">Apprentissage</span>',
+            'job'           => 'Ingénieur Développeur',
+            'contract'      => 'APPRENTISSAGE',
             'starts_at'     => 'Sept 2017',
             'ends_at'       => 'Sept 2020',
-            'description'   => '',
+            'description'   => ' Conception, développement et maintenance d’applications orientées business sur la plateforme intranet 
+                (Plan de charge Avant vente, automatisation de processus pour la SupplyChain, gestion de planning)
+                Création et évolution de modules pour un site E-Commerce sous Magento. Migration d\'une plateforme Magento v1 vers Magento v2.',
             'skills'        => [
 
             ],
@@ -124,10 +131,11 @@ return [
         'cpam' => [
             'company'       => 'CPAM Val-d\'Oise',
             'img_icon'      => url('img/experiences/cpam.png'),
-            'job'           => 'Réalisateur d\'application <span class="ml-4 bg-green-100 text-green-500 text-xs p-2">Apprentissage</span>',
+            'job'           => 'Réalisateur d\'application',
+            'contract'      => 'APPRENTISSAGE',
             'starts_at'     => 'Sept 2015',
             'ends_at'       => 'Sept 2017',
-            'description'   => '',
+            'description'   => 'Evolution d\'une application VBA vers une application Web',
             'skills'        => [
 
             ],

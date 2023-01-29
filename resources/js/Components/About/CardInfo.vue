@@ -15,9 +15,11 @@
       <div class="flex flex-row gap-2">
           <common-tag
               v-for="(data, key) in aboutData.skills_tags"
+              :id="key"
               :icon="data.icon"
               :backgroundClass="data.background"
               :roundedClass="data.rounded"
+              class="px-4"
           >
             <template #text>
               <div v-text="data.title"></div>

@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-row p-8 gap-8 w-full h-full">
+  <div class="flex flex-row p-8 gap-8 w-full">
       <CardInfo
           :about-data="aboutData"
       >
@@ -8,6 +8,7 @@
       <CardExperience
           v-for="(data, key) in aboutData.experiences"
           :data="data"
+          :id="key.toString()"
       ></CardExperience>
     </div>
   </div>
