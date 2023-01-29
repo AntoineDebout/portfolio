@@ -7,7 +7,7 @@
         >
     </InertiaHead>
     <Navbar></Navbar>
-    <div class="bg-gray-900 h-full w-full">
+    <div class="h-full w-full">
       <slot></slot>
     </div>
 

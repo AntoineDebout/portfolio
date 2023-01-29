@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-row p-8 gap-8 w-full">
+  <div class="flex flex-row p-8 gap-8 w-full h-full">
       <CardInfo
           :about-data="aboutData"
       >

@@ -55,9 +55,7 @@ export default {
   },
   methods: {
       openUrl(url = null){
-        if (url === null){
-          return;
-        }else {
+        if (url !== null){
           window.open(url);
         }
       }

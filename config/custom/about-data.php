@@ -95,7 +95,7 @@ return [
             'skills'        => [
 
             ],
-            'link_url'      => '',
+            'link_url'      => 'https://global-exam.com/fr',
         ],
         'sga' => [
             'company'       => 'SGA Courtage',
@@ -107,7 +107,7 @@ return [
             'skills'        => [
 
             ],
-            'link_url'      => '',
+            'link_url'      => 'http://sgacourtage.fr/',
         ],
         'nxo' => [
             'company'       => 'NXO France',
@@ -119,7 +119,7 @@ return [
             'skills'        => [
 
             ],
-            'link_url'      => '',
+            'link_url'      => 'https://www.nxo.eu/',
         ],
         'cpam' => [
             'company'       => 'CPAM Val-d\'Oise',
@@ -131,7 +131,6 @@ return [
             'skills'        => [
 
             ],
-            'link_url'      => '',
         ],
     ]
 ];
