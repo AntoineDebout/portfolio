@@ -12,6 +12,7 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import {
     faUserSecret,
     faLocationDot,
+    faAt,
 } from '@fortawesome/free-solid-svg-icons';
 import {
     faGithub,
@@ -46,6 +47,7 @@ export default {
           faLaravel,
           faLocationDot,
           faTwitter,
+          faAt,
       );
     }
 }

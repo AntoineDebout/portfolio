@@ -46,26 +46,37 @@ return [
             'title'     => 'Saint-Jean-De-Luz',
             'icon'      => [
                 'type'      => 'fas',
-                'class'     => 'text-red-500',
+                'class'     => 'text-black',
                 'name'      => 'location-dot',
-                'size'      => 'sm',
-            ]
-        ],
-        'github' => [
-            'title'     => 'AntoineDebout',
-            'icon'      => [
-                'type'      => 'fab',
-                'class'     => 'text-red-500',
-                'name'      => 'github',
                 'size'      => 'sm',
             ]
         ],
         'twitter' => [
             'title'     => '@AntoineDebout',
+            'link'      => 'https://twitter.com/AntoineDebout',
             'icon'      => [
                 'type'      => 'fab',
-                'class'     => 'text-red-500',
+                'class'     => 'text-black',
                 'name'      => 'twitter',
+                'size'      => 'sm',
+            ]
+        ],
+        'github' => [
+            'title'     => 'AntoineDebout',
+            'link'      => 'https://github.com/AntoineDebout',
+            'icon'      => [
+                'type'      => 'fab',
+                'class'     => 'text-black',
+                'name'      => 'github',
+                'size'      => 'sm',
+            ]
+        ],
+        'email' => [
+            'title'     => 'ant.debout@gmail.com',
+            'icon'      => [
+                'type'      => 'fas',
+                'class'     => 'text-black',
+                'name'      => 'at',
                 'size'      => 'sm',
             ]
         ]

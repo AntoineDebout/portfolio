@@ -27,7 +27,10 @@
       <div class="flex flex-col gap-3">
         <div
             v-for="(data, key) in aboutData.infos"
-            class="flex flex-row gap-2 items-center">
+            class="flex flex-row gap-2 items-center"
+            :class="{'cursor-pointer': data.link !== undefined}"
+            @click="openUrl(data.link ?? null)"
+        >
           <common-icon
               :type="data.icon.type"
               :name="data.icon.name"
@@ -50,5 +53,14 @@ export default {
       type: Object,
     },
   },
+  methods: {
+      openUrl(url = null){
+        if (url === null){
+          return;
+        }else {
+          window.open(url);
+        }
+      }
+  }
 }
 </script>
