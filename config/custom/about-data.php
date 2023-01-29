@@ -81,4 +81,57 @@ return [
             ]
         ]
     ],
+    'studies'       => [
+
+    ],
+    'experiences'   => [
+        'ge' => [
+            'company'       => 'GlobalExam',
+            'img_icon'      => url('img/experiences/ge.jpeg'),
+            'job'           => 'Fullstack Developer',
+            'starts_at'   => '2020',
+            'ends_at'       => 'Today',
+            'description'   => '',
+            'skills'        => [
+
+            ],
+            'link_url'      => '',
+        ],
+        'nxo' => [
+            'company'       => 'NXO France',
+            'img_icon'      => url('img/experiences/nxo.png'),
+            'job'           => 'Ingénieur Développeur (Apprentissage)',
+            'starts_at'   => '2017',
+            'ends_at'       => '2020',
+            'description'   => '',
+            'skills'        => [
+
+            ],
+            'link_url'      => '',
+        ],
+        'sga' => [
+            'company'       => 'SGA Courtage',
+            'img_icon'      => url('img/experiences/sga.jpeg'),
+            'job'           => 'Développeur - Architecte Base de données',
+            'starts_at'   => '2019',
+            'ends_at'       => '2020',
+            'description'   => '',
+            'skills'        => [
+
+            ],
+            'link_url'      => '',
+        ],
+        'cpam' => [
+            'company'       => 'Caisse Primaire d\'Assurance Maladie (95)',
+            'img_icon'      => url('img/experiences/cpam.png'),
+            'job'           => 'Développeur - Architecte Base de données',
+            'starts_at'   => '2017',
+            'ends_at'       => '2019',
+            'description'   => '',
+            'skills'        => [
+
+            ],
+            'link_url'      => '',
+        ],
+    ]
 ];
