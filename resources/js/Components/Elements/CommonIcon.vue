@@ -11,7 +11,15 @@
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
     faUserSecret,
+    faLocationDot,
 } from '@fortawesome/free-solid-svg-icons';
+import {
+    faGithub,
+    faVuejs,
+    faCss3,
+    faLaravel,
+    faTwitter,
+} from '@fortawesome/free-brands-svg-icons';
 
 export default {
     props: {
@@ -32,6 +40,12 @@ export default {
     created() {
       library.add(
           faUserSecret,
+          faVuejs,
+          faGithub,
+          faCss3,
+          faLaravel,
+          faLocationDot,
+          faTwitter,
       );
     }
 }

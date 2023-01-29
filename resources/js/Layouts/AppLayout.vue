@@ -7,7 +7,10 @@
         >
     </InertiaHead>
     <Navbar></Navbar>
-    <slot></slot>
+    <div class="mt-16 bg-gray-200 h-full">
+      <slot></slot>
+    </div>
+
     <footer>
         <Footer></Footer>
     </footer>

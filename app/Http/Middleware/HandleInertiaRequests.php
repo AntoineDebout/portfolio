@@ -3,6 +3,7 @@
 namespace App\Http\Middleware;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\URL;
 use Inertia\Middleware;
 
 class HandleInertiaRequests extends Middleware
@@ -37,7 +38,22 @@ class HandleInertiaRequests extends Middleware
     public function share(Request $request): array
     {
         return array_merge(parent::share($request), [
-            //
+            'meta'  => $this->handleMeta($request),
         ]);
+    }
+
+    /**
+     * @return array
+     */
+    public function handleMeta(Request $request) : array
+    {
+        $meta = [
+            'picture' => [
+                'logo_url' => URL::asset('img/logo.png'),
+                'me_url'   => URL::asset('img/profile-picture/me.jpeg'),
+            ],
+        ];
+
+        return $meta;
     }
 }
