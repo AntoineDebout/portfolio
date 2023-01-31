@@ -41,6 +41,29 @@ return [
             'rounded'    => 'rounded-full',
         ],
     ],
+    'skills_general' => [
+        'hard' => [
+            'PHP',
+            'Laravel',
+            'Symfony',
+            'Tailwind',
+            'VueJs',
+            'jQuery',
+            'MySQL',
+            'PostgreSQL',
+            'GIT',
+            'AWS',
+            'Singlestore',
+            'PHPUnit',
+        ],
+        'soft' => [
+            'Agile',
+            'Esprit d\'équipe',
+            'Entraide',
+            'Organisation',
+            'Curiosité'
+        ],
+    ],
     'infos'         => [
         'location' => [
             'title'     => 'Saint-Jean-De-Luz',
@@ -101,7 +124,7 @@ return [
         'sga' => [
             'company'       => 'SGA Courtage',
             'img_icon'      => url('img/experiences/sga.jpeg'),
-            'job'           => 'Développeur, Architecte Base de données',
+            'job'           => 'Développeur',
             'contract'      => 'PROJET SCOLAIRE',
             'starts_at'     => 'Juil 2019',
             'ends_at'       => 'Sept 2020',
