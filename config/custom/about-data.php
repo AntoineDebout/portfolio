@@ -66,7 +66,7 @@ return [
     ],
     'infos'         => [
         'location' => [
-            'title'     => 'Saint-Jean-De-Luz',
+            'title'     => 'Saint-Jean-De-Luz, FR',
             'icon'      => [
                 'type'      => 'fas',
                 'class'     => 'text-black',
@@ -105,7 +105,20 @@ return [
         ]
     ],
     'studies'       => [
-
+        'itescia'   => [
+            'school'        => 'ITESCIA - CCI Paris Ile de France',
+            'img_icon'      => url('img/studies/itescia.png'),
+            'name'          => 'Master of science Manager en Ingénierie Informatique',
+            'starts_at'     => 'Sept 2017',
+            'ends_at'       => 'Sept 2020',
+        ],
+        'uas'       => [
+            'school'        => 'Lapland University of Applied Sciences',
+            'img_icon'      => url('img/studies/uas.png'),
+            'name'          => 'International Business IT (Erasmus +)',
+            'starts_at'     => 'Aout 2019',
+            'ends_at'       => 'Dec 2019',
+        ],
     ],
     'experiences'   => [
         'ge' => [

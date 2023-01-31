@@ -1,18 +1,21 @@
 <template>
-  <div class="flex flex-row p-8 gap-8 w-full">
-    <div class="flex flex-col gap-4">
+  <div class="flex flex-row p-8 gap-16">
+    <div class="flex flex-col gap-4 w-1/4">
       <CardInfo :about-data="aboutData"></CardInfo>
       <CardSkills :data="aboutData.skills_general"></CardSkills>
     </div>
-    <div class="flex flex-col gap-4">
-      <CardExperience
-          v-for="(data, key) in aboutData.experiences"
-          :data="data"
-          :id="key.toString()"
-      ></CardExperience>
+    <div class="flex flex-col gap-2 w-1/2">
+      <div class="bg-white self-start px-4 py-1 border-green-500 border-l-8 font-bold rounded">EXPERIENCES</div>
+      <div class="flex flex-col gap-4">
+          <CardExperience
+              v-for="(data, key) in aboutData.experiences"
+              :data="data"
+              :id="key.toString()"
+          ></CardExperience>
+      </div>
     </div>
-    <div class="flex flex-col gap-4">
-      <CardStudies/>
+    <div class="flex flex-col gap-2 w-1/4">
+      <CardStudies :data="aboutData.studies"/>
     </div>
   </div>
 </template>

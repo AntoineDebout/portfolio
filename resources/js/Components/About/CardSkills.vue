@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col gap-2 w-lg max-w-lg">
+  <div class="flex flex-col gap-2 max-w-lg">
     <div class="bg-white self-start px-4 py-1 border-l border-green-500 border-l-8 font-bold rounded">COMPETENCES</div>
     <div class="bg-white p-4 flex flex-col gap-6 rounded">
       <div class="flex flex-col gap-2">
@@ -49,7 +49,7 @@
           >
             <template #text>
               <div
-                  class="text-white text-sm p-2">&#127467;&#127479; Francais <br/>Langue Maternelle
+                  class="text-white text-sm p-2">&#127467;&#127479; Francais <br/>Langue Natale
               </div>
             </template>
           </common-tag>

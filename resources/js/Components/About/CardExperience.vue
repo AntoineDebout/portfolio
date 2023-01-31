@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col bg-white w-full rounded gap-4 pb-6">
+  <div class="flex flex-col bg-white rounded gap-4 pb-6">
     <div class="flex flex-col border-b">
       <div class="flex flex-row items-center gap-4 p-6">
         <img class="w-12 h-12" :src="data.img_icon"/>
