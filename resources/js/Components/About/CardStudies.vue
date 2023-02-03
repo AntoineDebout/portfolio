@@ -17,6 +17,10 @@
                 class="flex text-xs leading-normal"
                 v-text="item.school"
             ></div>
+            <div
+                class="flex text-gray-500 text-xs leading-normal"
+                v-text="item.starts_at + ' - ' + item.ends_at"
+            ></div>
           </div>
         </div>
       </div>

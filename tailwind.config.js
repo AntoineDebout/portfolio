@@ -26,7 +26,21 @@ module.exports = {
             lg: '1024px',
             xl: '1280px',
         },
-        extend: {},
+        extend: {
+            animation: {
+                typing: 'typing 5s infinite steps(28)',
+            },
+            keyframes: {
+                typing: {
+                    '0%': {
+                        width: '0',
+                    },
+                    '100%': {
+                        width: '28ch',
+                    },
+                },
+            },
+        },
     },
     plugins: [],
 }
